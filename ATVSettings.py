@@ -73,7 +73,8 @@ options = { \
     'timeformat'        :('24 Hour', '12 Hour'), \
     'myplex_user'       :('', ), \
     'myplex_auth'       :('', ), \
-    'plexhome_enable'   :('False', 'True'), \
+    'myplexpass'   :('No', 'Yes'), \
+    'plexhome_enable'   :('No', 'Yes'), \
     'plexhome_user'     :('', ), \
     'plexhome_auth'     :('', ), \
     }

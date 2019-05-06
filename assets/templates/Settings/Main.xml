@@ -81,6 +81,10 @@
                 <label>{{TEXT(Allow deletion of media)}}</label>
                 <rightLabel>{{SETTING(allowdeletion)}}</rightLabel>
               </oneLineMenuItem>
+              <oneLineMenuItem id="MyPlexPass" onSelect="toggleSettings('MyPlexPass', 'Settings_Main')">
+                <label>{{TEXT(Enable Live TV - Does not work without Plex Pass)}}</label>
+                <rightLabel>{{SETTING(myplexpass)}}</rightLabel>
+              </oneLineMenuItem>
             </items>
           </menuSection>
           

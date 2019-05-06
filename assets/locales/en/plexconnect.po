@@ -197,6 +197,9 @@ msgstr ""
 msgid "Library"
 msgstr ""
 
+msgid "Live TV & DVR"
+msgstr ""
+
 msgid "Main Navigation Bar"
 msgstr ""
 
