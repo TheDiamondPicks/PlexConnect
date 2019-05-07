@@ -77,6 +77,7 @@ options = { \
     'plexhome_enable'   :('No', 'Yes'), \
     'plexhome_user'     :('', ), \
     'plexhome_auth'     :('', ), \
+    'dvr_id'     :('', ), \
     }
 
 

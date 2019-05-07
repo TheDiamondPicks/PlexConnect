@@ -338,6 +338,7 @@ def Run(cmdPipe, param):
     else:
         cfg_IP_self = param['IP_self']
 
+    intercept.append(param['CSettings'].getSetting('secondhost'))
     if param['CSettings'].getSetting('intercept_atv_icon')=='True':
         intercept.append('a1.phobos.apple.com')
         dprint(__name__, 0, "Intercept Atv Icon: Enabled")

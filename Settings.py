@@ -52,7 +52,10 @@ g_settings = [
     \
     ('loglevel'        , ('Normal', '((Off)|(Normal)|(High))')),
     ('logpath'         , ('.', '.+')),
-    ]
+    \
+    ('secondhost' , ('www.crunchyroll.com', '[a-zA-Z0-9_.-]+')),
+    ('secondicon', ('crunchyroll', '[a-zA-Z0-9_.-]+')),
+]
 
 
 
