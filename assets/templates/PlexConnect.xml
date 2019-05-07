@@ -27,9 +27,9 @@
           <url>{{URL(:/PMS(owned)/channels/all::PlexConnect=Channels_View)}}</url>
         </navigationItem>{{CUT($channelview:CUT:=|Hide=CUT|Hide =)}}
         <navigationItem id="LiveTV">
-          <title>$myplexpass</title>
+          <title>{{TEXT(Live TV &amp; DVR)}}</title>
           <url>{{URL(:/PMS(owned)/media/providers::PlexConnect=LiveTV_View)}}</url>
-        </navigationItem>
+        </navigationItem>{{CUT($myplexpass:CUT:=|No=CUT|Yes=)}}
         <navigationItem id="SharedChannels">
           <title>{{TEXT(Shared Channels)}}</title>
           <url>{{URL(:/PMS(shared)/channels/all::PlexConnect=Channels_ViewShared)}}</url>
